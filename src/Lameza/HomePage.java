@@ -1,4 +1,4 @@
-package Front;
+package Lameza;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -9,7 +9,7 @@ package Front;
  *
  * @author Kyla Alvarez
  */
-import Front.Login;
+
 import javax.swing.*;
 
 public class HomePage extends javax.swing.JFrame {
@@ -52,7 +52,7 @@ public class HomePage extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(231, 213, 195));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(102, 51, 0));
-        jButton1.setText("Login");
+        jButton1.setText("ADMIN");
         jButton1.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED), null));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +64,7 @@ public class HomePage extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(231, 213, 195));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 51, 0));
-        jButton2.setText("Signup");
+        jButton2.setText("CUSTOMER");
         jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,13 +85,16 @@ public class HomePage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       
+    JOptionPane.showMessageDialog(null, "Welcome to LAMEZA RESTAURANT");
+    AdminTabForm adf = new AdminTabForm();
+    adf.setVisible(true);
+    dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         // TODO add your handling code here:
-        Login os = new Login();
+        LoginForm os = new LoginForm();
         os.setVisible(true);
 
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -121,6 +124,7 @@ public class HomePage extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(HomePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

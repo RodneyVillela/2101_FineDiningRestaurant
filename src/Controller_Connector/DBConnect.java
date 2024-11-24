@@ -4,13 +4,16 @@
  */
 package Controller_Connector;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
 //class for DB Connection
 public class DBConnect {
     
-    private static String url = "jdbc:mysql://localhost:3306/lameza_restaurant";
+    private static String url = "jdbc:mysql://localhost:3306/fine_dining_restaurant";
     private static String user = "root";
     private static String userPassword = "";
     
@@ -25,6 +28,7 @@ public class DBConnect {
             JOptionPane.showMessageDialog(null, "Connected Successfully");
         } catch(Exception e){
             JOptionPane.showMessageDialog(null, "Connection Error"+ e.getMessage());
+             e.printStackTrace();
         }
                
     }

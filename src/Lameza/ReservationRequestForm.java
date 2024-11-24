@@ -39,11 +39,11 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jname = new javax.swing.JTextField();
+        jcontact = new javax.swing.JTextField();
+        jemail = new javax.swing.JTextField();
+        jyear = new javax.swing.JComboBox<>();
+        jmonth = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -52,13 +52,13 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        jtable = new javax.swing.JComboBox<>();
         jButton1 = new javax.swing.JButton();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jComboBox6 = new javax.swing.JComboBox<>();
-        jComboBox7 = new javax.swing.JComboBox<>();
-        jComboBox8 = new javax.swing.JComboBox<>();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        jhour = new javax.swing.JComboBox<>();
+        jmin = new javax.swing.JComboBox<>();
+        jampm = new javax.swing.JComboBox<>();
+        jday = new javax.swing.JComboBox<>();
+        jseats = new javax.swing.JComboBox<>();
         jLabel23 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -131,65 +131,65 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jnameActionPerformed(evt);
             }
         });
-        jPanel3.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 250, 30));
-        jPanel3.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 250, 30));
+        jPanel3.add(jname, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 250, 30));
+        jPanel3.add(jcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 250, 30));
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        jemail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                jemailActionPerformed(evt);
             }
         });
-        jPanel3.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 250, 30));
+        jPanel3.add(jemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 250, 30));
 
-        jComboBox2.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2024", "2025", "2026", "2027", "2028", "2029", "2030", "2031", "2032", "2033", "2034" }));
-        jComboBox2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+        jyear.setBackground(new java.awt.Color(231, 213, 195));
+        jyear.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2024", "2025", "2026", "2027", "2028", "2029", "2030", "2031", "2032", "2033", "2034" }));
+        jyear.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jyear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox2ActionPerformed(evt);
+                jyearActionPerformed(evt);
             }
         });
-        jPanel3.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 280, 90, 30));
+        jPanel3.add(jyear, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 90, 30));
 
-        jComboBox1.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
-        jComboBox1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 70, 30));
+        jmonth.setBackground(new java.awt.Color(231, 213, 195));
+        jmonth.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
+        jmonth.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jmonth, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 280, 70, 30));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(231, 213, 195));
         jLabel2.setText("NAME:");
-        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 50, 20));
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 50, 30));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(231, 213, 195));
         jLabel3.setText("CONTACT NUMBER:");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, 30));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(231, 213, 195));
         jLabel4.setText("EMAIL:");
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, 30));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(231, 213, 195));
         jLabel7.setText("CHOOSE TABLE:");
-        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
+        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, 30));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(231, 213, 195));
         jLabel6.setText("DATE OF RESERVATION:");
-        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
+        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, 30));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(231, 213, 195));
         jLabel5.setText("NUMBER OF SEATS:");
-        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
+        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, 30));
 
         jLabel22.setFont(new java.awt.Font("Felix Titling", 1, 24)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(231, 213, 195));
@@ -200,13 +200,13 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(231, 213, 195));
         jLabel11.setText("TIME OF RESERVATION:");
-        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, -1, -1));
+        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, -1, 30));
 
-        jComboBox4.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox4.setForeground(new java.awt.Color(102, 51, 0));
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TABLE 1", "TABLE 2", "TABLE 3", "TABLE 4", "TABLE 5", "TABLE 6", "TABLE 7", "TABLE 8", " " }));
-        jComboBox4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 380, 170, 30));
+        jtable.setBackground(new java.awt.Color(231, 213, 195));
+        jtable.setForeground(new java.awt.Color(102, 51, 0));
+        jtable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", " " }));
+        jtable.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jtable, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 380, 170, 30));
 
         jButton1.setBackground(new java.awt.Color(231, 213, 195));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -220,35 +220,35 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         });
         jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 450, 230, 30));
 
-        jComboBox5.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
-        jComboBox5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 330, 70, 30));
+        jhour.setBackground(new java.awt.Color(231, 213, 195));
+        jhour.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
+        jhour.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jhour, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 330, 70, 30));
 
-        jComboBox6.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", " " }));
-        jComboBox6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, 70, 30));
+        jmin.setBackground(new java.awt.Color(231, 213, 195));
+        jmin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", " " }));
+        jmin.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, 70, 30));
 
-        jComboBox7.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AM", "PM" }));
-        jComboBox7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 90, 30));
+        jampm.setBackground(new java.awt.Color(231, 213, 195));
+        jampm.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AM", "PM" }));
+        jampm.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jampm, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 90, 30));
 
-        jComboBox8.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", " " }));
-        jComboBox8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel3.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 280, 70, 30));
+        jday.setBackground(new java.awt.Color(231, 213, 195));
+        jday.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", " " }));
+        jday.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.add(jday, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 280, 70, 30));
 
-        jComboBox3.setBackground(new java.awt.Color(231, 213, 195));
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
-        jComboBox3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jComboBox3.addActionListener(new java.awt.event.ActionListener() {
+        jseats.setBackground(new java.awt.Color(231, 213, 195));
+        jseats.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", " " }));
+        jseats.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jseats.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox3ActionPerformed(evt);
+                jseatsActionPerformed(evt);
             }
         });
-        jPanel3.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 250, 30));
+        jPanel3.add(jseats, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 250, 30));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 130, 490, 510));
 
@@ -499,29 +499,31 @@ public class ReservationRequestForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox3ActionPerformed
+    private void jseatsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jseatsActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox3ActionPerformed
+    }//GEN-LAST:event_jseatsActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String name = jTextField1.getText();
-        String contactNumber = jTextField2.getText();
-        String email = jTextField3.getText();
-        String numberOfSeats = (String) jComboBox3.getSelectedItem();
-        String hour = (String) jComboBox5.getSelectedItem();
-        String minute = (String) jComboBox6.getSelectedItem();
-        String ampm = (String) jComboBox7.getSelectedItem();
-        String month = (String) jComboBox1.getSelectedItem();
-        String day = (String) jComboBox8.getSelectedItem();
-        String year = (String) jComboBox2.getSelectedItem();
-        String table = (String) jComboBox4.getSelectedItem(); // Selected table
+        String name = jname.getText();
+        String contact = jcontact.getText();
+        String email = jemail.getText();
+        String num_seats = (String) jseats.getSelectedItem();
+        String year = (String) jyear.getSelectedItem();
+        String month = (String) jday.getSelectedItem();
+        String day = (String) jmonth.getSelectedItem();
+        String hour = (String) jhour.getSelectedItem();
+        String minutes = (String) jmin.getSelectedItem();
+        String ampm = (String) jampm.getSelectedItem();
+        String table = (String) jtable.getSelectedItem();
+ 
+        
 
         // Combine hour, minute, and AM/PM for time
-        String time = hour + ":" + minute + " " + ampm;
+        String time = hour + ":" + minutes + " " + ampm;
         String date = year + "-" + month + "-" + day;  // SQL-friendly date format (YYYY-MM-DD)
 
         // Validate inputs (check for missing data)
-        if (name.isEmpty() || contactNumber.isEmpty() || email.isEmpty() || date.isEmpty() || table.isEmpty()) {
+        if (name.isEmpty() || contact.isEmpty() || email.isEmpty() || date.isEmpty() || table.isEmpty()) {
             JOptionPane.showMessageDialog(
                 this,
                 "Please fill out all fields before submitting.",
@@ -547,95 +549,65 @@ public class ReservationRequestForm extends javax.swing.JFrame {
 
         // Insert the reservation data into the database
         try {
-            // Prepare the SQL query to insert reservation data
-            Statement state = con.createStatement();
-            String query = String.format(
-                "INSERT INTO `reservation` (`ReservationID`, `Name`, `Email`, `Num_of_Seats`, `Date_of_Reservation`, `Time_of_Reservation`, `Table`) " +
-                "VALUES (NULL, '%s', '%s', '%s', '%s', '%s', '%s')",
-                name, email, numberOfSeats, date, time, table
-            );
+    // Prepare the SQL query to insert reservation data
+        Statement state = con.createStatement();
+        String query = "INSERT INTO `lameza_reservation` (`name`, `contact`, `email`, `num_of_seats`, `date`, `time`, `num_table`) " +
+                   "VALUES ('" + name + "', " + contact + ", '" + email + "', '" + num_seats + "', '" + date + "', '" + time + "', " + table + ")";
+    
+    // Execute the query
+        int result = state.executeUpdate(query);
 
-            // Execute the query
-            int result = state.executeUpdate(query);
-
-            // Check if the query was successful
-            if (result > 0) {
-                // If successful, display confirmation
-                String confirmationMessage = String.format(
-                    "Reservation Submitted Successfully!\n\nDetails:\n" +
-                    "Name: %s\nContact Number: %s\nEmail: %s\nNumber of Seats: %s\n" +
-                    "Date of Reservation: %s\nTime of Reservation: %s\nTable: %s",
-                    name, contactNumber, email, numberOfSeats, date, time, table
-                );
-                JOptionPane.showMessageDialog(this, confirmationMessage, "Reservation Confirmation", JOptionPane.INFORMATION_MESSAGE);
-            } else {
-                // If insertion failed
-                JOptionPane.showMessageDialog(this, "Failed to submit reservation. Please try again.", "Database Error", JOptionPane.ERROR_MESSAGE);
-            }
-        } catch (Exception e) {
-            // Handle errors with database insertion
-            JOptionPane.showMessageDialog(this, "Error while submitting reservation: " + e.getMessage(), "Database Error", JOptionPane.ERROR_MESSAGE);
+    // Check if the query was successful
+        if (result > 0) {
+            JOptionPane.showMessageDialog(this, "Reservation Submitted Successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+            AdminTabForm adf = new AdminTabForm();
+            adf.setVisible(true);
+        } else {
+            JOptionPane.showMessageDialog(this, "Failed to submit reservation. Please try again.", "Database Error", JOptionPane.ERROR_MESSAGE);
         }
+        } catch (Exception e) {
+    // Handle errors with database insertion
+            JOptionPane.showMessageDialog(this, "Error while submitting reservation: " + e.getMessage(), "Database Error", JOptionPane.ERROR_MESSAGE);
+}
+    AdminTabForm adf = new AdminTabForm();
+    adf.setVisible(true);
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+    private void jyearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jyearActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox2ActionPerformed
+    }//GEN-LAST:event_jyearActionPerformed
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void jemailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jemailActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_jemailActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jnameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jnameActionPerformed
 
     /**
      * @param args the command line arguments
      */
-     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        DBConnect dbc = new DBConnect(); // Assuming DBConnect handles your DB connection
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ReservationRequestForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ReservationRequestForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ReservationRequestForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ReservationRequestForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+   public static void main(String args[]) {
+    /* Initialize database connection */
+    DBConnect dbc = new DBConnect();
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new ReservationRequestForm().setVisible(true);
+    java.awt.EventQueue.invokeLater(new Runnable() {
+        public void run() {
+            try {
+                ReservationRequestForm form = new ReservationRequestForm();
+                form.setTitle("Reservation Management");
+                form.setVisible(true);
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null, "Error initializing application: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             }
-        });
-    }
+        }
+    });
+}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JComboBox<String> jComboBox7;
-    private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -690,8 +662,16 @@ public class ReservationRequestForm extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JComboBox<String> jampm;
+    private javax.swing.JTextField jcontact;
+    private javax.swing.JComboBox<String> jday;
+    private javax.swing.JTextField jemail;
+    private javax.swing.JComboBox<String> jhour;
+    private javax.swing.JComboBox<String> jmin;
+    private javax.swing.JComboBox<String> jmonth;
+    private javax.swing.JTextField jname;
+    private javax.swing.JComboBox<String> jseats;
+    private javax.swing.JComboBox<String> jtable;
+    private javax.swing.JComboBox<String> jyear;
     // End of variables declaration//GEN-END:variables
 }
