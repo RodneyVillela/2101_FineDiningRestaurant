@@ -16,7 +16,64 @@ public class Ordering extends javax.swing.JFrame {
     public Ordering() {
         initComponents();
     }
-
+    public void init(){
+        
+    }
+    
+    public void reset(){
+        jSpinner1.setValue(0);
+        jSpinner2.setValue(0);
+        jSpinner3.setValue(0);
+        jSpinner4.setValue(0);
+        jSpinner5.setValue(0);
+        jSpinner6.setValue(0);
+        jSpinner7.setValue(0);
+        jSpinner8.setValue(0);
+        jSpinner9.setValue(0);
+        jSpinner10.setValue(0);
+        jSpinner11.setValue(0);
+        jSpinner12.setValue(0);
+        jSpinner13.setValue(0);
+        jSpinner14.setValue(0);
+        jSpinner15.setValue(0);
+        jSpinner16.setValue(0);
+        jSpinner17.setValue(0);
+        jSpinner18.setValue(0);
+        jSpinner19.setValue(0);
+        jSpinner20.setValue(0);
+        jSpinner21.setValue(0);
+        jSpinner22.setValue(0);
+        jSpinner23.setValue(0);
+        jSpinner24.setValue(0);
+        jSpinner25.setValue(0);
+        jSpinner26.setValue(0);
+        jSpinner27.setValue(0);
+        jSpinner28.setValue(0);
+        jSpinner29.setValue(0);
+        jSpinner30.setValue(0);
+        jSpinner31.setValue(0);
+        jSpinner32.setValue(0);
+        jSpinner33.setValue(0);
+        jSpinner34.setValue(0);
+        jSpinner35.setValue(0);
+        jSpinner36.setValue(0);
+        jSpinner37.setValue(0);
+        jSpinner38.setValue(0);
+        jSpinner39.setValue(0);
+        jSpinner40.setValue(0);
+        jSpinner41.setValue(0);
+        jSpinner42.setValue(0);
+        jSpinner43.setValue(0);
+        jSpinner44.setValue(0);
+        jSpinner45.setValue(0);
+        jSpinner46.setValue(0);
+        jTextFieldSubTotal.setText("0.0");
+        jTextFieldtax.setText("0.0");
+        
+        
+        
+        
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -218,58 +275,91 @@ public class Ordering extends javax.swing.JFrame {
         jPanel55 = new javax.swing.JPanel();
         jPanel334 = new javax.swing.JPanel();
         jLabel316 = new javax.swing.JLabel();
-        jPanel56 = new javax.swing.JPanel();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jPanel57 = new javax.swing.JPanel();
-        jPanel58 = new javax.swing.JPanel();
-        jPanel59 = new javax.swing.JPanel();
+        jPanel91 = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jPanel92 = new javax.swing.JPanel();
+        jPanel93 = new javax.swing.JPanel();
+        jPanel94 = new javax.swing.JPanel();
+        jLabel135 = new javax.swing.JLabel();
+        jLabel136 = new javax.swing.JLabel();
+        jLabel137 = new javax.swing.JLabel();
+        jLabel138 = new javax.swing.JLabel();
+        jSpinner19 = new javax.swing.JSpinner();
+        jButton34 = new javax.swing.JButton();
+        jPanel95 = new javax.swing.JPanel();
+        jPanel96 = new javax.swing.JPanel();
+        jLabel139 = new javax.swing.JLabel();
+        jLabel140 = new javax.swing.JLabel();
+        jLabel141 = new javax.swing.JLabel();
+        jLabel142 = new javax.swing.JLabel();
+        jSpinner20 = new javax.swing.JSpinner();
+        jButton35 = new javax.swing.JButton();
+        jPanel97 = new javax.swing.JPanel();
+        jPanel98 = new javax.swing.JPanel();
+        jLabel143 = new javax.swing.JLabel();
+        jLabel144 = new javax.swing.JLabel();
+        jLabel145 = new javax.swing.JLabel();
+        jLabel176 = new javax.swing.JLabel();
+        jSpinner34 = new javax.swing.JSpinner();
+        jButton36 = new javax.swing.JButton();
+        jPanel99 = new javax.swing.JPanel();
+        jPanel116 = new javax.swing.JPanel();
+        jLabel177 = new javax.swing.JLabel();
+        jLabel178 = new javax.swing.JLabel();
+        jLabel179 = new javax.swing.JLabel();
+        jLabel180 = new javax.swing.JLabel();
+        jSpinner22 = new javax.swing.JSpinner();
+        jButton43 = new javax.swing.JButton();
+        jPanel117 = new javax.swing.JPanel();
+        jPanel118 = new javax.swing.JPanel();
+        jLabel181 = new javax.swing.JLabel();
+        jLabel182 = new javax.swing.JLabel();
+        jLabel183 = new javax.swing.JLabel();
+        jLabel184 = new javax.swing.JLabel();
+        jSpinner23 = new javax.swing.JSpinner();
+        jButton44 = new javax.swing.JButton();
+        jPanel119 = new javax.swing.JPanel();
+        jPanel120 = new javax.swing.JPanel();
+        jLabel185 = new javax.swing.JLabel();
+        jLabel186 = new javax.swing.JLabel();
+        jLabel187 = new javax.swing.JLabel();
+        jLabel188 = new javax.swing.JLabel();
+        jSpinner24 = new javax.swing.JSpinner();
+        jButton45 = new javax.swing.JButton();
+        jPanel121 = new javax.swing.JPanel();
+        jPanel122 = new javax.swing.JPanel();
+        jLabel189 = new javax.swing.JLabel();
+        jLabel190 = new javax.swing.JLabel();
+        jLabel191 = new javax.swing.JLabel();
+        jLabel192 = new javax.swing.JLabel();
+        jSpinner21 = new javax.swing.JSpinner();
+        jButton52 = new javax.swing.JButton();
+        jPanel123 = new javax.swing.JPanel();
+        jPanel124 = new javax.swing.JPanel();
+        jLabel193 = new javax.swing.JLabel();
+        jLabel194 = new javax.swing.JLabel();
+        jLabel195 = new javax.swing.JLabel();
+        jLabel196 = new javax.swing.JLabel();
+        jSpinner31 = new javax.swing.JSpinner();
+        jButton53 = new javax.swing.JButton();
+        jPanel125 = new javax.swing.JPanel();
+        jPanel126 = new javax.swing.JPanel();
+        jLabel197 = new javax.swing.JLabel();
+        jLabel198 = new javax.swing.JLabel();
+        jLabel199 = new javax.swing.JLabel();
+        jLabel200 = new javax.swing.JLabel();
+        jSpinner33 = new javax.swing.JSpinner();
+        jButton54 = new javax.swing.JButton();
+        jPanel127 = new javax.swing.JPanel();
+        jPanel128 = new javax.swing.JPanel();
+        jLabel201 = new javax.swing.JLabel();
+        jLabel202 = new javax.swing.JLabel();
+        jLabel203 = new javax.swing.JLabel();
+        jLabel204 = new javax.swing.JLabel();
+        jSpinner32 = new javax.swing.JSpinner();
+        jButton55 = new javax.swing.JButton();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jLabel76 = new javax.swing.JLabel();
-        jLabel77 = new javax.swing.JLabel();
-        jSpinner19 = new javax.swing.JSpinner();
-        jButton19 = new javax.swing.JButton();
-        jPanel60 = new javax.swing.JPanel();
-        jPanel61 = new javax.swing.JPanel();
-        jLabel78 = new javax.swing.JLabel();
-        jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
-        jLabel81 = new javax.swing.JLabel();
-        jSpinner20 = new javax.swing.JSpinner();
-        jButton20 = new javax.swing.JButton();
-        jPanel64 = new javax.swing.JPanel();
-        jPanel65 = new javax.swing.JPanel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
-        jLabel88 = new javax.swing.JLabel();
-        jLabel89 = new javax.swing.JLabel();
-        jSpinner22 = new javax.swing.JSpinner();
-        jButton22 = new javax.swing.JButton();
-        jPanel66 = new javax.swing.JPanel();
-        jPanel67 = new javax.swing.JPanel();
-        jLabel90 = new javax.swing.JLabel();
-        jLabel91 = new javax.swing.JLabel();
-        jLabel92 = new javax.swing.JLabel();
-        jLabel93 = new javax.swing.JLabel();
-        jSpinner23 = new javax.swing.JSpinner();
-        jButton23 = new javax.swing.JButton();
-        jPanel68 = new javax.swing.JPanel();
-        jPanel69 = new javax.swing.JPanel();
-        jLabel94 = new javax.swing.JLabel();
-        jLabel95 = new javax.swing.JLabel();
-        jLabel96 = new javax.swing.JLabel();
-        jLabel97 = new javax.swing.JLabel();
-        jSpinner24 = new javax.swing.JSpinner();
-        jButton24 = new javax.swing.JButton();
-        jPanel62 = new javax.swing.JPanel();
-        jPanel63 = new javax.swing.JPanel();
-        jLabel82 = new javax.swing.JLabel();
-        jLabel83 = new javax.swing.JLabel();
-        jLabel84 = new javax.swing.JLabel();
-        jLabel85 = new javax.swing.JLabel();
-        jSpinner21 = new javax.swing.JSpinner();
-        jButton21 = new javax.swing.JButton();
-        jLabel122 = new javax.swing.JLabel();
         jPanel70 = new javax.swing.JPanel();
         jPanel335 = new javax.swing.JPanel();
         jLabel317 = new javax.swing.JLabel();
@@ -327,6 +417,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel337 = new javax.swing.JPanel();
         jLabel319 = new javax.swing.JLabel();
         jPanel102 = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
         jPanel103 = new javax.swing.JPanel();
         jPanel104 = new javax.swing.JPanel();
         jPanel105 = new javax.swing.JPanel();
@@ -334,7 +425,7 @@ public class Ordering extends javax.swing.JFrame {
         jLabel153 = new javax.swing.JLabel();
         jLabel154 = new javax.swing.JLabel();
         jLabel155 = new javax.swing.JLabel();
-        jSpinner37 = new javax.swing.JSpinner();
+        jSpinner35 = new javax.swing.JSpinner();
         jButton37 = new javax.swing.JButton();
         jPanel106 = new javax.swing.JPanel();
         jPanel107 = new javax.swing.JPanel();
@@ -342,46 +433,119 @@ public class Ordering extends javax.swing.JFrame {
         jLabel157 = new javax.swing.JLabel();
         jLabel158 = new javax.swing.JLabel();
         jLabel159 = new javax.swing.JLabel();
-        jSpinner38 = new javax.swing.JSpinner();
+        jSpinner36 = new javax.swing.JSpinner();
         jButton38 = new javax.swing.JButton();
         jPanel108 = new javax.swing.JPanel();
         jPanel109 = new javax.swing.JPanel();
         jLabel160 = new javax.swing.JLabel();
         jLabel161 = new javax.swing.JLabel();
         jLabel162 = new javax.swing.JLabel();
-        jLabel163 = new javax.swing.JLabel();
+        jLabel246 = new javax.swing.JLabel();
         jSpinner39 = new javax.swing.JSpinner();
         jButton39 = new javax.swing.JButton();
         jPanel110 = new javax.swing.JPanel();
-        jPanel111 = new javax.swing.JPanel();
-        jLabel164 = new javax.swing.JLabel();
-        jLabel165 = new javax.swing.JLabel();
-        jLabel166 = new javax.swing.JLabel();
-        jLabel167 = new javax.swing.JLabel();
+        jPanel150 = new javax.swing.JPanel();
+        jLabel247 = new javax.swing.JLabel();
+        jLabel248 = new javax.swing.JLabel();
+        jLabel249 = new javax.swing.JLabel();
+        jLabel250 = new javax.swing.JLabel();
+        jSpinner38 = new javax.swing.JSpinner();
+        jButton66 = new javax.swing.JButton();
+        jPanel151 = new javax.swing.JPanel();
+        jPanel152 = new javax.swing.JPanel();
+        jLabel251 = new javax.swing.JLabel();
+        jLabel252 = new javax.swing.JLabel();
+        jLabel253 = new javax.swing.JLabel();
+        jLabel254 = new javax.swing.JLabel();
         jSpinner40 = new javax.swing.JSpinner();
-        jButton40 = new javax.swing.JButton();
-        jPanel112 = new javax.swing.JPanel();
-        jPanel113 = new javax.swing.JPanel();
-        jLabel168 = new javax.swing.JLabel();
-        jLabel169 = new javax.swing.JLabel();
-        jLabel170 = new javax.swing.JLabel();
-        jLabel171 = new javax.swing.JLabel();
+        jButton67 = new javax.swing.JButton();
+        jPanel153 = new javax.swing.JPanel();
+        jPanel154 = new javax.swing.JPanel();
+        jLabel255 = new javax.swing.JLabel();
+        jLabel256 = new javax.swing.JLabel();
+        jLabel257 = new javax.swing.JLabel();
+        jLabel258 = new javax.swing.JLabel();
         jSpinner41 = new javax.swing.JSpinner();
-        jButton41 = new javax.swing.JButton();
-        jPanel114 = new javax.swing.JPanel();
-        jPanel115 = new javax.swing.JPanel();
-        jLabel172 = new javax.swing.JLabel();
-        jLabel173 = new javax.swing.JLabel();
-        jLabel174 = new javax.swing.JLabel();
-        jLabel175 = new javax.swing.JLabel();
+        jButton68 = new javax.swing.JButton();
+        jPanel155 = new javax.swing.JPanel();
+        jPanel156 = new javax.swing.JPanel();
+        jLabel259 = new javax.swing.JLabel();
+        jLabel260 = new javax.swing.JLabel();
+        jLabel261 = new javax.swing.JLabel();
+        jLabel262 = new javax.swing.JLabel();
+        jSpinner37 = new javax.swing.JSpinner();
+        jButton69 = new javax.swing.JButton();
+        jPanel157 = new javax.swing.JPanel();
+        jPanel158 = new javax.swing.JPanel();
+        jLabel263 = new javax.swing.JLabel();
+        jLabel264 = new javax.swing.JLabel();
+        jLabel265 = new javax.swing.JLabel();
+        jLabel266 = new javax.swing.JLabel();
         jSpinner42 = new javax.swing.JSpinner();
-        jButton42 = new javax.swing.JButton();
+        jButton70 = new javax.swing.JButton();
+        jPanel159 = new javax.swing.JPanel();
+        jPanel160 = new javax.swing.JPanel();
+        jLabel267 = new javax.swing.JLabel();
+        jLabel268 = new javax.swing.JLabel();
+        jLabel269 = new javax.swing.JLabel();
+        jLabel270 = new javax.swing.JLabel();
+        jSpinner43 = new javax.swing.JSpinner();
+        jButton71 = new javax.swing.JButton();
+        jPanel161 = new javax.swing.JPanel();
+        jPanel162 = new javax.swing.JPanel();
+        jLabel271 = new javax.swing.JLabel();
+        jLabel272 = new javax.swing.JLabel();
+        jLabel273 = new javax.swing.JLabel();
+        jLabel274 = new javax.swing.JLabel();
+        jSpinner46 = new javax.swing.JSpinner();
+        jButton72 = new javax.swing.JButton();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jPanel163 = new javax.swing.JPanel();
+        jPanel164 = new javax.swing.JPanel();
+        jLabel275 = new javax.swing.JLabel();
+        jLabel276 = new javax.swing.JLabel();
+        jLabel277 = new javax.swing.JLabel();
+        jLabel278 = new javax.swing.JLabel();
+        jSpinner44 = new javax.swing.JSpinner();
+        jButton73 = new javax.swing.JButton();
+        jPanel165 = new javax.swing.JPanel();
+        jPanel166 = new javax.swing.JPanel();
+        jLabel279 = new javax.swing.JLabel();
+        jLabel280 = new javax.swing.JLabel();
+        jLabel281 = new javax.swing.JLabel();
+        jLabel282 = new javax.swing.JLabel();
+        jSpinner45 = new javax.swing.JSpinner();
+        jButton74 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel100 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jLabel76 = new javax.swing.JLabel();
+        jPanel56 = new javax.swing.JPanel();
+        jPanel61 = new javax.swing.JPanel();
+        jPanel58 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jCash = new javax.swing.JTextField();
+        jChange = new javax.swing.JTextField();
+        jPaymentMethod = new javax.swing.JComboBox<>();
+        jPanel59 = new javax.swing.JPanel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jTextFieldSubTotal = new javax.swing.JTextField();
+        jTextFieldtax = new javax.swing.JTextField();
+        jTextFieldtotal = new javax.swing.JTextField();
+        jPanel60 = new javax.swing.JPanel();
+        jExit = new javax.swing.JButton();
+        jPay = new javax.swing.JButton();
+        btnReset = new javax.swing.JButton();
+        jRemove = new javax.swing.JButton();
+        jPrint = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -569,12 +733,13 @@ public class Ordering extends javax.swing.JFrame {
         jLabel313.setText("LAMÈZA  ");
         jPanel331.add(jLabel313, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel23.add(jPanel331, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel23.add(jPanel331, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
         jPanel24.setBackground(new java.awt.Color(102, 51, 0));
         jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel5.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel6.setBackground(new java.awt.Color(102, 51, 0));
@@ -841,9 +1006,9 @@ public class Ordering extends javax.swing.JFrame {
 
         jPanel5.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel24.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1120, 470));
+        jPanel24.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 470));
 
-        jPanel23.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1150, 510));
+        jPanel23.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("amuse-bouche", jPanel23);
 
@@ -859,12 +1024,13 @@ public class Ordering extends javax.swing.JFrame {
         jLabel314.setText("LAMÈZA  ");
         jPanel332.add(jLabel314, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel25.add(jPanel332, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel25.add(jPanel332, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
         jPanel26.setBackground(new java.awt.Color(102, 51, 0));
         jPanel26.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel17.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel18.setBackground(new java.awt.Color(102, 51, 0));
@@ -1131,9 +1297,9 @@ public class Ordering extends javax.swing.JFrame {
 
         jPanel17.add(jPanel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel26.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1120, 470));
+        jPanel26.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 470));
 
-        jPanel25.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1150, 510));
+        jPanel25.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("appetizer", jPanel25);
 
@@ -1149,12 +1315,13 @@ public class Ordering extends javax.swing.JFrame {
         jLabel315.setText("LAMÈZA  ");
         jPanel333.add(jLabel315, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel40.add(jPanel333, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel40.add(jPanel333, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
         jPanel41.setBackground(new java.awt.Color(102, 51, 0));
         jPanel41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel42.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel43.setBackground(new java.awt.Color(102, 51, 0));
@@ -1421,9 +1588,9 @@ public class Ordering extends javax.swing.JFrame {
 
         jPanel42.add(jPanel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel41.add(jPanel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1120, 470));
+        jPanel41.add(jPanel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 470));
 
-        jPanel40.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1150, 510));
+        jPanel40.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("soup and salad", jPanel40);
 
@@ -1439,289 +1606,468 @@ public class Ordering extends javax.swing.JFrame {
         jLabel316.setText("LAMÈZA  ");
         jPanel334.add(jLabel316, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel55.add(jPanel334, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel55.add(jPanel334, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
-        jPanel56.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel56.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel91.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel91.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        jScrollPane3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jPanel57.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel57.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel92.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel92.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel92.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel58.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel58.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel93.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel93.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel59.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel59.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel94.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel94.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/dover.jpg"))); // NOI18N
-        jPanel59.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel135.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ribeye1.jpg"))); // NOI18N
+        jPanel94.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel58.add(jPanel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel93.add(jPanel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel75.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel75.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel75.setText("Quantity:");
-        jPanel58.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel136.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel136.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel136.setText("Quantity:");
+        jPanel93.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel76.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel76.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel76.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel76.setText("Brown butter, capers, and lemon served with sautéed spinach. ");
-        jPanel58.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel137.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel137.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel137.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel137.setText("Herb butter, pommes Anna, and charred broccolini.");
+        jPanel93.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel77.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel77.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel77.setText(" Grilled Dover Sole ");
-        jPanel58.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel138.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel138.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel138.setText("Dry-Aged Ribeye");
+        jPanel93.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel58.add(jSpinner19, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel93.add(jSpinner19, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton19.setBackground(new java.awt.Color(231, 213, 195));
-        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton19.setForeground(new java.awt.Color(102, 51, 0));
-        jButton19.setText("ADD");
-        jButton19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        jButton34.setBackground(new java.awt.Color(231, 213, 195));
+        jButton34.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton34.setForeground(new java.awt.Color(102, 51, 0));
+        jButton34.setText("ADD");
+        jButton34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                jButton34ActionPerformed(evt);
             }
         });
-        jPanel58.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel93.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 360, 220));
+        jPanel92.add(jPanel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 360, 220));
 
-        jPanel60.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel60.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel95.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel95.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel61.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel61.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel96.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel96.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/halibut.jpg"))); // NOI18N
-        jPanel61.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel139.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/duck.jpg"))); // NOI18N
+        jPanel96.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel60.add(jPanel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel95.add(jPanel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel79.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel79.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel79.setText("Quantity:");
-        jPanel60.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel140.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel140.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel140.setText("Quantity:");
+        jPanel95.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel80.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel80.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel80.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel80.setText("Saffron risotto, asparagus, and lemon beurre blanc.");
-        jPanel60.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel141.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel141.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel141.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel141.setText("Thai-inspired coconut soup with chicken, mushrooms.");
+        jPanel95.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel81.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel81.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel81.setText("Pan-Seared Halibut");
-        jPanel60.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel142.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel142.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel142.setText(" Duck Breast a l’Orange ");
+        jPanel95.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel60.add(jSpinner20, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel95.add(jSpinner20, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton20.setBackground(new java.awt.Color(231, 213, 195));
-        jButton20.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(102, 51, 0));
-        jButton20.setText("ADD");
-        jButton20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        jButton35.setBackground(new java.awt.Color(231, 213, 195));
+        jButton35.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(102, 51, 0));
+        jButton35.setText("ADD");
+        jButton35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                jButton35ActionPerformed(evt);
             }
         });
-        jPanel60.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel95.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, 360, 220));
+        jPanel92.add(jPanel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, 360, 220));
 
-        jPanel64.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel64.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel97.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel97.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel65.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel65.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel98.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel98.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ribeye1.jpg"))); // NOI18N
-        jPanel65.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel143.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/bell.jpg"))); // NOI18N
+        jPanel98.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel64.add(jPanel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel97.add(jPanel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel87.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel87.setText("Quantity:");
-        jPanel64.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel144.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel144.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel144.setText("Quantity:");
+        jPanel97.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel88.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel88.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel88.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel88.setText("Herb butter, pommes Anna, and charred broccolini.");
-        jPanel64.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel145.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel145.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel145.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel145.setText("Filled with quinoa, roasted vegetables, and cashew cream.");
+        jPanel97.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel89.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel89.setText("Dry-Aged Ribeye");
-        jPanel64.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel176.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel176.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel176.setText("Stuffed Bell Peppers (V)");
+        jPanel97.add(jLabel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel97.add(jSpinner34, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton36.setBackground(new java.awt.Color(231, 213, 195));
+        jButton36.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton36.setForeground(new java.awt.Color(102, 51, 0));
+        jButton36.setText("ADD");
+        jButton36.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        jPanel97.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel92.add(jPanel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 240, 360, 220));
+
+        jPanel99.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel99.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel116.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel116.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel177.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/dover.jpg"))); // NOI18N
+        jPanel116.add(jLabel177, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel99.add(jPanel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel178.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel178.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel178.setText("Quantity:");
+        jPanel99.add(jLabel178, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel179.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel179.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel179.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel179.setText("Brown butter, capers, and lemon served with sautéed spinach.");
+        jPanel99.add(jLabel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel180.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel180.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel180.setText("Grilled Dover Sole");
+        jPanel99.add(jLabel180, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel64.add(jSpinner22, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel99.add(jSpinner22, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton22.setBackground(new java.awt.Color(231, 213, 195));
-        jButton22.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(102, 51, 0));
-        jButton22.setText("ADD");
-        jButton22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
+        jButton43.setBackground(new java.awt.Color(231, 213, 195));
+        jButton43.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton43.setForeground(new java.awt.Color(102, 51, 0));
+        jButton43.setText("ADD");
+        jButton43.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
+                jButton43ActionPerformed(evt);
             }
         });
-        jPanel64.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel99.add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 360, 220));
+        jPanel92.add(jPanel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 360, 220));
 
-        jPanel66.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel66.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel117.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel117.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel67.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel67.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel118.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel118.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/duck.jpg"))); // NOI18N
-        jPanel67.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel181.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/halibut.jpg"))); // NOI18N
+        jPanel118.add(jLabel181, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel66.add(jPanel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel117.add(jPanel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel91.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel91.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel91.setText("Quantity:");
-        jPanel66.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel182.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel182.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel182.setText("Quantity:");
+        jPanel117.add(jLabel182, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel92.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel92.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel92.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel92.setText("Seared duck breast, orange reduction, and roasted fennel.");
-        jPanel66.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel183.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel183.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel183.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel183.setText("Saffron risotto, asparagus, and lemon beurre blanc.");
+        jPanel117.add(jLabel183, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel93.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel93.setText("Duck Breast a l’Orange");
-        jPanel66.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel184.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel184.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel184.setText("Pan-Seared Halibut");
+        jPanel117.add(jLabel184, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel66.add(jSpinner23, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel117.add(jSpinner23, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton23.setBackground(new java.awt.Color(231, 213, 195));
-        jButton23.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton23.setForeground(new java.awt.Color(102, 51, 0));
-        jButton23.setText("ADD");
-        jButton23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
+        jButton44.setBackground(new java.awt.Color(231, 213, 195));
+        jButton44.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton44.setForeground(new java.awt.Color(102, 51, 0));
+        jButton44.setText("ADD");
+        jButton44.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
+                jButton44ActionPerformed(evt);
             }
         });
-        jPanel66.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel117.add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 360, 220));
+        jPanel92.add(jPanel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 360, 220));
 
-        jPanel68.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel68.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel119.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel119.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel69.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel69.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel120.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel120.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/lamb.jpg"))); // NOI18N
-        jPanel69.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel185.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/paella.jpg"))); // NOI18N
+        jPanel120.add(jLabel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel68.add(jPanel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel119.add(jPanel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel95.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel95.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel95.setText("Quantity:");
-        jPanel68.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel186.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel186.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel186.setText("Quantity:");
+        jPanel119.add(jLabel186, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel96.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel96.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel96.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel96.setText("Braised in red wine, served with creamy polenta.");
-        jPanel68.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel187.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel187.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel187.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel187.setText("Mussels, clams, shrimp, saffron rice, and sofrito. ");
+        jPanel119.add(jLabel187, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel97.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel97.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel97.setText(" Lamb Shank Osso Buco");
-        jPanel68.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel188.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel188.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel188.setText("Seafood Paella");
+        jPanel119.add(jLabel188, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel68.add(jSpinner24, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel119.add(jSpinner24, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton24.setBackground(new java.awt.Color(231, 213, 195));
-        jButton24.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton24.setForeground(new java.awt.Color(102, 51, 0));
-        jButton24.setText("ADD");
-        jButton24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
+        jButton45.setBackground(new java.awt.Color(231, 213, 195));
+        jButton45.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton45.setForeground(new java.awt.Color(102, 51, 0));
+        jButton45.setText("ADD");
+        jButton45.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
+                jButton45ActionPerformed(evt);
             }
         });
-        jPanel68.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel119.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
+        jPanel92.add(jPanel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel62.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel62.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel121.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel121.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel63.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel63.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel122.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel122.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/paella.jpg"))); // NOI18N
-        jPanel63.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel189.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/lamb.jpg"))); // NOI18N
+        jPanel122.add(jLabel189, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel62.add(jPanel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel121.add(jPanel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel83.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel83.setText("Quantity:");
-        jPanel62.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel190.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel190.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel190.setText("Quantity:");
+        jPanel121.add(jLabel190, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel84.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel84.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel84.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel84.setText("Mussels, clams, shrimp, saffron rice, and sofrito.");
-        jPanel62.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel191.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel191.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel191.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel191.setText("Braised in red wine, served with creamy polenta.");
+        jPanel121.add(jLabel191, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel85.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel85.setText("Seafood Paella");
-        jPanel62.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel192.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel192.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel192.setText("Lamb Shank Osso Buco ");
+        jPanel121.add(jLabel192, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel62.add(jSpinner21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel121.add(jSpinner21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton21.setBackground(new java.awt.Color(231, 213, 195));
-        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(102, 51, 0));
-        jButton21.setText("ADD");
-        jButton21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
+        jButton52.setBackground(new java.awt.Color(231, 213, 195));
+        jButton52.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton52.setForeground(new java.awt.Color(102, 51, 0));
+        jButton52.setText("ADD");
+        jButton52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+                jButton52ActionPerformed(evt);
             }
         });
-        jPanel62.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel121.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel57.add(jPanel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 10, 360, 220));
+        jPanel92.add(jPanel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 10, 360, 220));
 
-        jLabel122.setText("jLabel122");
-        jPanel57.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 800, -1, -1));
+        jPanel123.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel123.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane4.setViewportView(jPanel57);
+        jPanel124.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel124.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel56.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1130, 470));
+        jLabel193.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/braised.jpg"))); // NOI18N
+        jPanel124.add(jLabel193, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, 120));
 
-        jPanel55.add(jPanel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1160, 510));
+        jPanel123.add(jPanel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel194.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel194.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel194.setText("Quantity:");
+        jPanel123.add(jLabel194, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel195.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel195.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel195.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel195.setText("Red wine jus, parsnip purée, and glazed carrots.");
+        jPanel123.add(jLabel195, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel196.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel196.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel196.setText("Braised Short Ribs");
+        jPanel123.add(jLabel196, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel123.add(jSpinner31, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton53.setBackground(new java.awt.Color(231, 213, 195));
+        jButton53.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton53.setForeground(new java.awt.Color(102, 51, 0));
+        jButton53.setText("ADD");
+        jButton53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton53ActionPerformed(evt);
+            }
+        });
+        jPanel123.add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel92.add(jPanel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, 360, 220));
+
+        jPanel125.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel125.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel126.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel126.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel197.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/cauli.jpg"))); // NOI18N
+        jPanel126.add(jLabel197, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel125.add(jPanel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel198.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel198.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel198.setText("Quantity:");
+        jPanel125.add(jLabel198, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel199.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel199.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel199.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel199.setText("Romesco sauce, toasted almonds, and golden raisins.");
+        jPanel125.add(jLabel199, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel200.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel200.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel200.setText("Roasted Cauliflower Steak (V) ");
+        jPanel125.add(jLabel200, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner33.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel125.add(jSpinner33, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton54.setBackground(new java.awt.Color(231, 213, 195));
+        jButton54.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton54.setForeground(new java.awt.Color(102, 51, 0));
+        jButton54.setText("ADD");
+        jButton54.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
+        jPanel125.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel92.add(jPanel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 240, 360, 220));
+
+        jPanel127.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel127.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel128.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel128.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel201.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/veal.jpg"))); // NOI18N
+        jPanel128.add(jLabel201, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel127.add(jPanel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel202.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel202.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel202.setText("Quantity:");
+        jPanel127.add(jLabel202, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel203.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel203.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel203.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel203.setText("Crispy veal cutlet with arugula and Parmesan salad.");
+        jPanel127.add(jLabel203, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel204.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel204.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel204.setText("Veal Milanese ");
+        jPanel127.add(jLabel204, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner32.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel127.add(jSpinner32, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton55.setBackground(new java.awt.Color(231, 213, 195));
+        jButton55.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton55.setForeground(new java.awt.Color(102, 51, 0));
+        jButton55.setText("ADD");
+        jButton55.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton55ActionPerformed(evt);
+            }
+        });
+        jPanel127.add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel92.add(jPanel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 10, 360, 220));
+        jPanel92.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(1820, 460, -1, -1));
+
+        jLabel75.setText("....");
+        jPanel92.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(1850, 460, -1, -1));
+
+        jScrollPane3.setViewportView(jPanel92);
+
+        jPanel91.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 490));
+
+        jPanel55.add(jPanel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("main courses", jPanel55);
 
@@ -1737,12 +2083,13 @@ public class Ordering extends javax.swing.JFrame {
         jLabel317.setText("LAMÈZA  ");
         jPanel335.add(jLabel317, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel70.add(jPanel335, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel70.add(jPanel335, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
         jPanel71.setBackground(new java.awt.Color(102, 51, 0));
         jPanel71.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel72.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel72.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel72.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel73.setBackground(new java.awt.Color(102, 51, 0));
@@ -1751,7 +2098,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel74.setBackground(new java.awt.Color(231, 213, 195));
         jPanel74.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/roll_1.jpg"))); // NOI18N
+        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/opera.jpg"))); // NOI18N
         jPanel74.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel73.add(jPanel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1764,12 +2111,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel100.setBackground(new java.awt.Color(231, 213, 195));
         jLabel100.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel100.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel100.setText("Buttered brioche with tarragon mayo.");
+        jLabel100.setText("Layers of almond sponge, coffee cream, and chocolate ganache.");
         jPanel73.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel101.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel101.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel101.setText("Mini Lobster Roll ");
+        jLabel101.setText("Opera Cake");
         jPanel73.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1795,7 +2142,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel76.setBackground(new java.awt.Color(231, 213, 195));
         jPanel76.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/melob_1.jpg"))); // NOI18N
+        jLabel102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/trio.jpg"))); // NOI18N
         jPanel76.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel75.add(jPanel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1808,12 +2155,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel104.setBackground(new java.awt.Color(231, 213, 195));
         jLabel104.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel104.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel104.setText("Drizzled with aged balsamic and mint oil.");
+        jLabel104.setText("Vanilla, pistachio, and lavender flavors.");
         jPanel75.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel105.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel105.setText("Compressed Melon with Prosciutto ");
+        jLabel105.setText("Crème Brûlée Trio");
         jPanel75.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1839,7 +2186,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel78.setBackground(new java.awt.Color(231, 213, 195));
         jPanel78.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tart.jpg"))); // NOI18N
+        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/molten1.jpg"))); // NOI18N
         jPanel78.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel77.add(jPanel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1852,12 +2199,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel108.setBackground(new java.awt.Color(231, 213, 195));
         jLabel108.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel108.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel108.setText("Topped with caramelized onions and a honey drizzle.");
+        jLabel108.setText("Raspberry coulis and Madagascar vanilla ice cream.");
         jPanel77.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel109.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel109.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel109.setText("Goat Cheese Mousse Tart");
+        jLabel109.setText("Molten Chocolate Fondant");
         jPanel77.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1883,7 +2230,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel80.setBackground(new java.awt.Color(231, 213, 195));
         jPanel80.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/salmonn.jpg"))); // NOI18N
+        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/seasonal.jpg"))); // NOI18N
         jPanel80.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel79.add(jPanel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1896,12 +2243,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel112.setBackground(new java.awt.Color(231, 213, 195));
         jLabel112.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel112.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel112.setText("Dill crème, caviar, and a hint of lemon zest.");
+        jLabel112.setText("Crisp meringue, whipped cream, and fresh fruits.");
         jPanel79.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel113.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel113.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel113.setText("Smoked Salmon Blini");
+        jLabel113.setText("Seasonal Fruit Pavlova");
         jPanel79.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1927,7 +2274,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel82.setBackground(new java.awt.Color(231, 213, 195));
         jPanel82.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/cucumberr.jpg"))); // NOI18N
+        jLabel114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tarte.jpg"))); // NOI18N
         jPanel82.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel81.add(jPanel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1940,12 +2287,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel116.setBackground(new java.awt.Color(231, 213, 195));
         jLabel116.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel116.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel116.setText("Lemon aioli and a touch of paprika.");
+        jLabel116.setText("Lemon tart with toasted Italian meringue and a raspberry glaze.");
         jPanel81.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel117.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel117.setText("Cucumber Cups with Crab Salad");
+        jLabel117.setText("Tarte au Citron");
         jPanel81.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1971,7 +2318,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel84.setBackground(new java.awt.Color(231, 213, 195));
         jPanel84.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/savoryy.jpg"))); // NOI18N
+        jLabel118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/baba.jpg"))); // NOI18N
         jPanel84.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel83.add(jPanel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -1984,12 +2331,12 @@ public class Ordering extends javax.swing.JFrame {
         jLabel120.setBackground(new java.awt.Color(231, 213, 195));
         jLabel120.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel120.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel120.setText("Parmesan panna cotta with a tomato-basil gelée.");
+        jLabel120.setText("Rum-soaked brioche with Chantilly cream and orange zest.");
         jPanel83.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel121.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel121.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel121.setText("Savory Panna Cotta");
+        jLabel121.setText("Baba au Rhum ");
         jPanel83.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner30.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -2009,9 +2356,9 @@ public class Ordering extends javax.swing.JFrame {
 
         jPanel72.add(jPanel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel71.add(jPanel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1120, 470));
+        jPanel71.add(jPanel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 470));
 
-        jPanel70.add(jPanel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1150, 510));
+        jPanel70.add(jPanel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("dessert", jPanel70);
 
@@ -2027,12 +2374,17 @@ public class Ordering extends javax.swing.JFrame {
         jLabel319.setText("LAMÈZA  ");
         jPanel337.add(jLabel319, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 60));
 
-        jPanel101.add(jPanel337, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1150, 70));
+        jPanel101.add(jPanel337, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1140, 70));
 
         jPanel102.setBackground(new java.awt.Color(102, 51, 0));
         jPanel102.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jScrollPane4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel103.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel103.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel103.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel104.setBackground(new java.awt.Color(102, 51, 0));
@@ -2041,7 +2393,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel105.setBackground(new java.awt.Color(231, 213, 195));
         jPanel105.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel152.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/roll_1.jpg"))); // NOI18N
+        jLabel152.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/elderflower.jpg"))); // NOI18N
         jPanel105.add(jLabel152, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel104.add(jPanel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -2054,16 +2406,16 @@ public class Ordering extends javax.swing.JFrame {
         jLabel154.setBackground(new java.awt.Color(231, 213, 195));
         jLabel154.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel154.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel154.setText("Buttered brioche with tarragon mayo.");
+        jLabel154.setText("Gin, St-Germain, cucumber, and sparkling water.");
         jPanel104.add(jLabel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel155.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel155.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel155.setText("Mini Lobster Roll ");
+        jLabel155.setText("Elderflower Fizz");
         jPanel104.add(jLabel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
-        jSpinner37.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel104.add(jSpinner37, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jSpinner35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel104.add(jSpinner35, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
         jButton37.setBackground(new java.awt.Color(231, 213, 195));
         jButton37.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -2085,7 +2437,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel107.setBackground(new java.awt.Color(231, 213, 195));
         jPanel107.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel156.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/melob_1.jpg"))); // NOI18N
+        jLabel156.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/blckberry.jpg"))); // NOI18N
         jPanel107.add(jLabel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel106.add(jPanel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -2098,16 +2450,16 @@ public class Ordering extends javax.swing.JFrame {
         jLabel158.setBackground(new java.awt.Color(231, 213, 195));
         jLabel158.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel158.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel158.setText("Drizzled with aged balsamic and mint oil.");
+        jLabel158.setText("Vodka, blackberry purée, fresh thyme, and lime. ");
         jPanel106.add(jLabel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
         jLabel159.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel159.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel159.setText("Compressed Melon with Prosciutto ");
+        jLabel159.setText(" Blackberry Thyme Martini ");
         jPanel106.add(jLabel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
-        jSpinner38.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel106.add(jSpinner38, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jSpinner36.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel106.add(jSpinner36, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
         jButton38.setBackground(new java.awt.Color(231, 213, 195));
         jButton38.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -2129,7 +2481,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel109.setBackground(new java.awt.Color(231, 213, 195));
         jPanel109.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel160.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tart.jpg"))); // NOI18N
+        jLabel160.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/matcha.jpg"))); // NOI18N
         jPanel109.add(jLabel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
         jPanel108.add(jPanel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
@@ -2142,13 +2494,13 @@ public class Ordering extends javax.swing.JFrame {
         jLabel162.setBackground(new java.awt.Color(231, 213, 195));
         jLabel162.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
         jLabel162.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel162.setText("Topped with caramelized onions and a honey drizzle.");
+        jLabel162.setText("A rich creamy green tea with vibrant flavor and a smooth finish.");
         jPanel108.add(jLabel162, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel163.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel163.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel163.setText("Goat Cheese Mousse Tart");
-        jPanel108.add(jLabel163, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel246.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel246.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel246.setText("Matcha");
+        jPanel108.add(jLabel246, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner39.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel108.add(jSpinner39, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
@@ -2165,143 +2517,413 @@ public class Ordering extends javax.swing.JFrame {
         });
         jPanel108.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel103.add(jPanel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 10, 360, 220));
+        jPanel103.add(jPanel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 240, 360, 220));
 
         jPanel110.setBackground(new java.awt.Color(102, 51, 0));
         jPanel110.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel111.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel111.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel150.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel150.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel164.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/salmonn.jpg"))); // NOI18N
-        jPanel111.add(jLabel164, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel247.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/pineapple.jpg"))); // NOI18N
+        jPanel150.add(jLabel247, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel110.add(jPanel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel110.add(jPanel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel165.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel165.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel165.setText("Quantity:");
-        jPanel110.add(jLabel165, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel248.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel248.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel248.setText("Quantity:");
+        jPanel110.add(jLabel248, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel166.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel166.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel166.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel166.setText("Dill crème, caviar, and a hint of lemon zest.");
-        jPanel110.add(jLabel166, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel249.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel249.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel249.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel249.setText("Fresh pineapple juice, ginger beer, and a hint of lime.");
+        jPanel110.add(jLabel249, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel167.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel167.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel167.setText("Smoked Salmon Blini");
-        jPanel110.add(jLabel167, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel250.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel250.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel250.setText("Pineapple Ginger Sparkle");
+        jPanel110.add(jLabel250, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
-        jSpinner40.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel110.add(jSpinner40, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jSpinner38.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel110.add(jSpinner38, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton40.setBackground(new java.awt.Color(231, 213, 195));
-        jButton40.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton40.setForeground(new java.awt.Color(102, 51, 0));
-        jButton40.setText("ADD");
-        jButton40.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
+        jButton66.setBackground(new java.awt.Color(231, 213, 195));
+        jButton66.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton66.setForeground(new java.awt.Color(102, 51, 0));
+        jButton66.setText("ADD");
+        jButton66.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
+                jButton66ActionPerformed(evt);
             }
         });
-        jPanel110.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel110.add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
         jPanel103.add(jPanel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 360, 220));
 
-        jPanel112.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel112.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel151.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel151.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel113.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel113.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel152.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel152.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel168.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/cucumberr.jpg"))); // NOI18N
-        jPanel113.add(jLabel168, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel251.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/rosemary.jpg"))); // NOI18N
+        jPanel152.add(jLabel251, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel112.add(jPanel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel151.add(jPanel152, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel169.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel169.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel169.setText("Quantity:");
-        jPanel112.add(jLabel169, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel252.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel252.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel252.setText("Quantity:");
+        jPanel151.add(jLabel252, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel170.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel170.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel170.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel170.setText("Lemon aioli and a touch of paprika.");
-        jPanel112.add(jLabel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel253.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel253.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel253.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel253.setText("House-made lemonade with rosemary syrup and a lemon twist.");
+        jPanel151.add(jLabel253, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel171.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel171.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel171.setText("Cucumber Cups with Crab Salad");
-        jPanel112.add(jLabel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel254.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel254.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel254.setText("Rosemary Lemonade");
+        jPanel151.add(jLabel254, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner40.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel151.add(jSpinner40, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton67.setBackground(new java.awt.Color(231, 213, 195));
+        jButton67.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton67.setForeground(new java.awt.Color(102, 51, 0));
+        jButton67.setText("ADD");
+        jButton67.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton67ActionPerformed(evt);
+            }
+        });
+        jPanel151.add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 360, 220));
+
+        jPanel153.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel153.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel154.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel154.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel255.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/mojito.jpg"))); // NOI18N
+        jPanel154.add(jLabel255, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel153.add(jPanel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel256.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel256.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel256.setText("Quantity:");
+        jPanel153.add(jLabel256, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel257.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel257.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel257.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel257.setText("Mint, lime, and soda water with a touch of sweetness.");
+        jPanel153.add(jLabel257, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel258.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel258.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel258.setText("Virgin Mojito");
+        jPanel153.add(jLabel258, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner41.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel112.add(jSpinner41, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel153.add(jSpinner41, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton41.setBackground(new java.awt.Color(231, 213, 195));
-        jButton41.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton41.setForeground(new java.awt.Color(102, 51, 0));
-        jButton41.setText("ADD");
-        jButton41.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton41.addActionListener(new java.awt.event.ActionListener() {
+        jButton68.setBackground(new java.awt.Color(231, 213, 195));
+        jButton68.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton68.setForeground(new java.awt.Color(102, 51, 0));
+        jButton68.setText("ADD");
+        jButton68.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton41ActionPerformed(evt);
+                jButton68ActionPerformed(evt);
             }
         });
-        jPanel112.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel153.add(jButton68, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel103.add(jPanel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 360, 220));
+        jPanel103.add(jPanel153, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
 
-        jPanel114.setBackground(new java.awt.Color(102, 51, 0));
-        jPanel114.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel155.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel155.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel115.setBackground(new java.awt.Color(231, 213, 195));
-        jPanel115.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel156.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel156.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel172.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/savoryy.jpg"))); // NOI18N
-        jPanel115.add(jLabel172, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+        jLabel259.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/citrus.jpg"))); // NOI18N
+        jPanel156.add(jLabel259, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
 
-        jPanel114.add(jPanel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+        jPanel155.add(jPanel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
 
-        jLabel173.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel173.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel173.setText("Quantity:");
-        jPanel114.add(jLabel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+        jLabel260.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel260.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel260.setText("Quantity:");
+        jPanel155.add(jLabel260, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
 
-        jLabel174.setBackground(new java.awt.Color(231, 213, 195));
-        jLabel174.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
-        jLabel174.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel174.setText("Parmesan panna cotta with a tomato-basil gelée.");
-        jPanel114.add(jLabel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+        jLabel261.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel261.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel261.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel261.setText("Orange-infused gin, Campari, and sweet vermouth.");
+        jPanel155.add(jLabel261, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
 
-        jLabel175.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel175.setForeground(new java.awt.Color(231, 213, 195));
-        jLabel175.setText("Savory Panna Cotta");
-        jPanel114.add(jLabel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+        jLabel262.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel262.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel262.setText("Citrus Negroni");
+        jPanel155.add(jLabel262, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner37.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel155.add(jSpinner37, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton69.setBackground(new java.awt.Color(231, 213, 195));
+        jButton69.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton69.setForeground(new java.awt.Color(102, 51, 0));
+        jButton69.setText("ADD");
+        jButton69.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
+        jPanel155.add(jButton69, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 10, 360, 220));
+
+        jPanel157.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel157.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel158.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel158.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel263.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/lavender.jpg"))); // NOI18N
+        jPanel158.add(jLabel263, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, 120));
+
+        jPanel157.add(jPanel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel264.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel264.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel264.setText("Quantity:");
+        jPanel157.add(jLabel264, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel265.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel265.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel265.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel265.setText("Subtle lavender paired with sweet honey, lightly carbonated.");
+        jPanel157.add(jLabel265, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel266.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel266.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel266.setText("Lavender and Honey Sparkling Water");
+        jPanel157.add(jLabel266, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
 
         jSpinner42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel114.add(jSpinner42, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+        jPanel157.add(jSpinner42, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
 
-        jButton42.setBackground(new java.awt.Color(231, 213, 195));
-        jButton42.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton42.setForeground(new java.awt.Color(102, 51, 0));
-        jButton42.setText("ADD");
-        jButton42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
+        jButton70.setBackground(new java.awt.Color(231, 213, 195));
+        jButton70.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton70.setForeground(new java.awt.Color(102, 51, 0));
+        jButton70.setText("ADD");
+        jButton70.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
+                jButton70ActionPerformed(evt);
             }
         });
-        jPanel114.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+        jPanel157.add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
 
-        jPanel103.add(jPanel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 360, 220));
+        jPanel103.add(jPanel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, 360, 220));
 
-        jPanel102.add(jPanel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 1120, 470));
+        jPanel159.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel159.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel101.add(jPanel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1150, 510));
+        jPanel160.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel160.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel267.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/jas.jpg"))); // NOI18N
+        jPanel160.add(jLabel267, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel159.add(jPanel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel268.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel268.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel268.setText("Quantity:");
+        jPanel159.add(jLabel268, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel269.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel269.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel269.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel269.setText("Delicate green tea with floral jasmine aroma.");
+        jPanel159.add(jLabel269, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel270.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel270.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel270.setText("Jasmine Pearl");
+        jPanel159.add(jLabel270, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner43.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel159.add(jSpinner43, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton71.setBackground(new java.awt.Color(231, 213, 195));
+        jButton71.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton71.setForeground(new java.awt.Color(102, 51, 0));
+        jButton71.setText("ADD");
+        jButton71.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
+        jPanel159.add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 240, 360, 220));
+
+        jPanel161.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel161.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel162.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel162.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel271.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/chamomile.jpg"))); // NOI18N
+        jPanel162.add(jLabel271, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel161.add(jPanel162, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel272.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel272.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel272.setText("Quantity:");
+        jPanel161.add(jLabel272, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel273.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel273.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel273.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel273.setText("Soothing herbal tea with light apple-like notes. ");
+        jPanel161.add(jLabel273, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel274.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel274.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel274.setText("Chamomile");
+        jPanel161.add(jLabel274, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner46.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel161.add(jSpinner46, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton72.setBackground(new java.awt.Color(231, 213, 195));
+        jButton72.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton72.setForeground(new java.awt.Color(102, 51, 0));
+        jButton72.setText("ADD");
+        jButton72.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
+        jPanel161.add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel161, new org.netbeans.lib.awtextra.AbsoluteConstraints(1860, 240, 360, 220));
+        jPanel103.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(1820, 460, -1, -1));
+
+        jLabel79.setText("....");
+        jPanel103.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(2220, 460, -1, -1));
+
+        jPanel163.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel163.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel164.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel164.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel275.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/basil.jpg"))); // NOI18N
+        jPanel164.add(jLabel275, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel163.add(jPanel164, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel276.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel276.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel276.setText("Quantity:");
+        jPanel163.add(jLabel276, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel277.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel277.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel277.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel277.setText("Tart and slightly herbal with fresh blood orange and basil.");
+        jPanel163.add(jLabel277, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel278.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel278.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel278.setText("Blood Orange and Basil Soda");
+        jPanel163.add(jLabel278, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner44.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel163.add(jSpinner44, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton73.setBackground(new java.awt.Color(231, 213, 195));
+        jButton73.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton73.setForeground(new java.awt.Color(102, 51, 0));
+        jButton73.setText("ADD");
+        jButton73.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton73ActionPerformed(evt);
+            }
+        });
+        jPanel163.add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel163, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 10, 360, 220));
+
+        jPanel165.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel165.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel166.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel166.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel279.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/cucumberrrr.jpg"))); // NOI18N
+        jPanel166.add(jLabel279, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, -1));
+
+        jPanel165.add(jPanel166, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 140));
+
+        jLabel280.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel280.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel280.setText("Quantity:");
+        jPanel165.add(jLabel280, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, 30));
+
+        jLabel281.setBackground(new java.awt.Color(231, 213, 195));
+        jLabel281.setFont(new java.awt.Font("Segoe UI Historic", 0, 12)); // NOI18N
+        jLabel281.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel281.setText("Crisp cucumber and cooling mint blended with sparkling water.");
+        jPanel165.add(jLabel281, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 30));
+
+        jLabel282.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel282.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel282.setText("Cucumber Mint Cooler");
+        jPanel165.add(jLabel282, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 30));
+
+        jSpinner45.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel165.add(jSpinner45, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, -1));
+
+        jButton74.setBackground(new java.awt.Color(231, 213, 195));
+        jButton74.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton74.setForeground(new java.awt.Color(102, 51, 0));
+        jButton74.setText("ADD");
+        jButton74.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton74ActionPerformed(evt);
+            }
+        });
+        jPanel165.add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 80, 20));
+
+        jPanel103.add(jPanel165, new org.netbeans.lib.awtextra.AbsoluteConstraints(1860, 10, 360, 220));
+
+        jScrollPane4.setViewportView(jPanel103);
+
+        jPanel102.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1120, 490));
+
+        jPanel101.add(jPanel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 1140, 510));
 
         jTabbedPane1.addTab("beverage", jPanel101);
 
@@ -2311,6 +2933,7 @@ public class Ordering extends javax.swing.JFrame {
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -2319,28 +2942,134 @@ public class Ordering extends javax.swing.JFrame {
         jPanel100.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel100.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTable1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Item", "Quantity", "Amount"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel100.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 500));
+        jPanel100.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 520, 490));
 
         jScrollPane2.setViewportView(jPanel100);
 
-        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 550, 210));
+        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 520, 190));
 
-        jPanel3.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 570, 230));
+        jLabel76.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel76.setForeground(new java.awt.Color(231, 213, 195));
+        jLabel76.setText("RECEIPT");
+        jPanel2.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, 30));
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 630, 1160, 250));
+        jPanel3.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 540, 230));
+
+        jPanel56.setBackground(new java.awt.Color(102, 51, 0));
+        jPanel56.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel56.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel61.setBackground(new java.awt.Color(231, 213, 195));
+        jPanel61.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel58.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0)));
+        jPanel58.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel82.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel82.setText("Change:");
+        jPanel58.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, 30));
+
+        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel83.setText("Payment Method:");
+        jPanel58.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, 30));
+
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel84.setText("Cash:");
+        jPanel58.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, 30));
+
+        jCash.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCashActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jCash, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, 100, 30));
+        jPanel58.add(jChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, 100, 30));
+
+        jPaymentMethod.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel58.add(jPaymentMethod, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 100, 30));
+
+        jPanel61.add(jPanel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, 240, 190));
+
+        jPanel59.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0)));
+        jPanel59.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel85.setText("Total:");
+        jPanel59.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, 30));
+
+        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel86.setText("SubTotal:");
+        jPanel59.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, 30));
+
+        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel87.setText("Tax:");
+        jPanel59.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, 30));
+        jPanel59.add(jTextFieldSubTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 100, 30));
+
+        jTextFieldtax.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldtaxActionPerformed(evt);
+            }
+        });
+        jPanel59.add(jTextFieldtax, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 100, 30));
+        jPanel59.add(jTextFieldtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 100, 30));
+
+        jPanel61.add(jPanel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 180, 190));
+
+        jPanel60.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0), new java.awt.Color(102, 51, 0)));
+        jPanel60.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jExit.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jExit.setText("EXIT");
+        jPanel60.add(jExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 90, -1));
+
+        jPay.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPay.setText("PAY");
+        jPanel60.add(jPay, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 90, -1));
+
+        btnReset.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnReset.setText("RESET");
+        btnReset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnResetActionPerformed(evt);
+            }
+        });
+        jPanel60.add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 90, -1));
+
+        jRemove.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRemove.setText("REMOVE");
+        jRemove.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRemoveActionPerformed(evt);
+            }
+        });
+        jPanel60.add(jRemove, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 90, -1));
+
+        jPrint.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPrint.setText("PRINT");
+        jPanel60.add(jPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 90, -1));
+
+        jPanel61.add(jPanel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 110, 190));
+
+        jPanel56.add(jPanel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 570, 210));
+
+        jPanel3.add(jPanel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 590, 230));
+
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 630, 1170, 250));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1510, 910));
 
@@ -2349,27 +3078,33 @@ public class Ordering extends javax.swing.JFrame {
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(0);
 
     }//GEN-LAST:event_jButton46ActionPerformed
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(1);
     }//GEN-LAST:event_jButton47ActionPerformed
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(2);
     }//GEN-LAST:event_jButton48ActionPerformed
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(3);
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(4);
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
         // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(5);
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
@@ -2420,30 +3155,6 @@ public class Ordering extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton19ActionPerformed
-
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton21ActionPerformed
-
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton22ActionPerformed
-
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton23ActionPerformed
-
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton24ActionPerformed
-
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton25ActionPerformed
@@ -2492,6 +3203,46 @@ public class Ordering extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton52ActionPerformed
+
+    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton53ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton54ActionPerformed
+
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton55ActionPerformed
+
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton37ActionPerformed
@@ -2504,17 +3255,57 @@ public class Ordering extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton39ActionPerformed
 
-    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton40ActionPerformed
+    }//GEN-LAST:event_jButton66ActionPerformed
 
-    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton41ActionPerformed
+    }//GEN-LAST:event_jButton67ActionPerformed
 
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton42ActionPerformed
+    }//GEN-LAST:event_jButton68ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton72ActionPerformed
+
+    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton73ActionPerformed
+
+    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton74ActionPerformed
+
+    private void jCashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCashActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCashActionPerformed
+
+    private void jTextFieldtaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldtaxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldtaxActionPerformed
+
+    private void jRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRemoveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRemoveActionPerformed
+
+    private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
+        reset();
+    }//GEN-LAST:event_btnResetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2552,6 +3343,7 @@ public class Ordering extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnReset;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -2562,13 +3354,7 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
@@ -2576,13 +3362,16 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
     private javax.swing.JButton jButton37;
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
+    private javax.swing.JButton jButton43;
+    private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
     private javax.swing.JButton jButton46;
     private javax.swing.JButton jButton47;
     private javax.swing.JButton jButton48;
@@ -2590,10 +3379,26 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
+    private javax.swing.JButton jButton53;
+    private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton55;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton66;
+    private javax.swing.JButton jButton67;
+    private javax.swing.JButton jButton68;
+    private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton70;
+    private javax.swing.JButton jButton71;
+    private javax.swing.JButton jButton72;
+    private javax.swing.JButton jButton73;
+    private javax.swing.JButton jButton74;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JTextField jCash;
+    private javax.swing.JTextField jChange;
+    private javax.swing.JButton jExit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -2620,9 +3425,19 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel120;
     private javax.swing.JLabel jLabel121;
-    private javax.swing.JLabel jLabel122;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel135;
+    private javax.swing.JLabel jLabel136;
+    private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
+    private javax.swing.JLabel jLabel143;
+    private javax.swing.JLabel jLabel144;
+    private javax.swing.JLabel jLabel145;
     private javax.swing.JLabel jLabel146;
     private javax.swing.JLabel jLabel147;
     private javax.swing.JLabel jLabel148;
@@ -2642,33 +3457,86 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel160;
     private javax.swing.JLabel jLabel161;
     private javax.swing.JLabel jLabel162;
-    private javax.swing.JLabel jLabel163;
-    private javax.swing.JLabel jLabel164;
-    private javax.swing.JLabel jLabel165;
-    private javax.swing.JLabel jLabel166;
-    private javax.swing.JLabel jLabel167;
-    private javax.swing.JLabel jLabel168;
-    private javax.swing.JLabel jLabel169;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel170;
-    private javax.swing.JLabel jLabel171;
-    private javax.swing.JLabel jLabel172;
-    private javax.swing.JLabel jLabel173;
-    private javax.swing.JLabel jLabel174;
-    private javax.swing.JLabel jLabel175;
+    private javax.swing.JLabel jLabel176;
+    private javax.swing.JLabel jLabel177;
+    private javax.swing.JLabel jLabel178;
+    private javax.swing.JLabel jLabel179;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel180;
+    private javax.swing.JLabel jLabel181;
+    private javax.swing.JLabel jLabel182;
+    private javax.swing.JLabel jLabel183;
+    private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
+    private javax.swing.JLabel jLabel186;
+    private javax.swing.JLabel jLabel187;
+    private javax.swing.JLabel jLabel188;
+    private javax.swing.JLabel jLabel189;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel190;
+    private javax.swing.JLabel jLabel191;
+    private javax.swing.JLabel jLabel192;
+    private javax.swing.JLabel jLabel193;
+    private javax.swing.JLabel jLabel194;
+    private javax.swing.JLabel jLabel195;
+    private javax.swing.JLabel jLabel196;
+    private javax.swing.JLabel jLabel197;
+    private javax.swing.JLabel jLabel198;
+    private javax.swing.JLabel jLabel199;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel200;
+    private javax.swing.JLabel jLabel201;
+    private javax.swing.JLabel jLabel202;
+    private javax.swing.JLabel jLabel203;
+    private javax.swing.JLabel jLabel204;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel225;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel246;
+    private javax.swing.JLabel jLabel247;
+    private javax.swing.JLabel jLabel248;
+    private javax.swing.JLabel jLabel249;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel250;
+    private javax.swing.JLabel jLabel251;
+    private javax.swing.JLabel jLabel252;
+    private javax.swing.JLabel jLabel253;
+    private javax.swing.JLabel jLabel254;
+    private javax.swing.JLabel jLabel255;
+    private javax.swing.JLabel jLabel256;
+    private javax.swing.JLabel jLabel257;
+    private javax.swing.JLabel jLabel258;
+    private javax.swing.JLabel jLabel259;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel260;
+    private javax.swing.JLabel jLabel261;
+    private javax.swing.JLabel jLabel262;
+    private javax.swing.JLabel jLabel263;
+    private javax.swing.JLabel jLabel264;
+    private javax.swing.JLabel jLabel265;
+    private javax.swing.JLabel jLabel266;
+    private javax.swing.JLabel jLabel267;
+    private javax.swing.JLabel jLabel268;
+    private javax.swing.JLabel jLabel269;
     private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel270;
+    private javax.swing.JLabel jLabel271;
+    private javax.swing.JLabel jLabel272;
+    private javax.swing.JLabel jLabel273;
+    private javax.swing.JLabel jLabel274;
+    private javax.swing.JLabel jLabel275;
+    private javax.swing.JLabel jLabel276;
+    private javax.swing.JLabel jLabel277;
+    private javax.swing.JLabel jLabel278;
+    private javax.swing.JLabel jLabel279;
     private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel280;
+    private javax.swing.JLabel jLabel281;
+    private javax.swing.JLabel jLabel282;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
@@ -2728,29 +3596,16 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
-    private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
     private javax.swing.JLabel jLabel83;
     private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
-    private javax.swing.JLabel jLabel88;
-    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLabel jLabel90;
-    private javax.swing.JLabel jLabel91;
-    private javax.swing.JLabel jLabel92;
-    private javax.swing.JLabel jLabel93;
-    private javax.swing.JLabel jLabel94;
-    private javax.swing.JLabel jLabel95;
-    private javax.swing.JLabel jLabel96;
-    private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
     private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
@@ -2767,16 +3622,41 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel109;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel110;
-    private javax.swing.JPanel jPanel111;
-    private javax.swing.JPanel jPanel112;
-    private javax.swing.JPanel jPanel113;
-    private javax.swing.JPanel jPanel114;
-    private javax.swing.JPanel jPanel115;
+    private javax.swing.JPanel jPanel116;
+    private javax.swing.JPanel jPanel117;
+    private javax.swing.JPanel jPanel118;
+    private javax.swing.JPanel jPanel119;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel120;
+    private javax.swing.JPanel jPanel121;
+    private javax.swing.JPanel jPanel122;
+    private javax.swing.JPanel jPanel123;
+    private javax.swing.JPanel jPanel124;
+    private javax.swing.JPanel jPanel125;
+    private javax.swing.JPanel jPanel126;
+    private javax.swing.JPanel jPanel127;
+    private javax.swing.JPanel jPanel128;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel150;
+    private javax.swing.JPanel jPanel151;
+    private javax.swing.JPanel jPanel152;
+    private javax.swing.JPanel jPanel153;
+    private javax.swing.JPanel jPanel154;
+    private javax.swing.JPanel jPanel155;
+    private javax.swing.JPanel jPanel156;
+    private javax.swing.JPanel jPanel157;
+    private javax.swing.JPanel jPanel158;
+    private javax.swing.JPanel jPanel159;
     private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel160;
+    private javax.swing.JPanel jPanel161;
+    private javax.swing.JPanel jPanel162;
+    private javax.swing.JPanel jPanel163;
+    private javax.swing.JPanel jPanel164;
+    private javax.swing.JPanel jPanel165;
+    private javax.swing.JPanel jPanel166;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
@@ -2834,20 +3714,11 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel54;
     private javax.swing.JPanel jPanel55;
     private javax.swing.JPanel jPanel56;
-    private javax.swing.JPanel jPanel57;
     private javax.swing.JPanel jPanel58;
     private javax.swing.JPanel jPanel59;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel60;
     private javax.swing.JPanel jPanel61;
-    private javax.swing.JPanel jPanel62;
-    private javax.swing.JPanel jPanel63;
-    private javax.swing.JPanel jPanel64;
-    private javax.swing.JPanel jPanel65;
-    private javax.swing.JPanel jPanel66;
-    private javax.swing.JPanel jPanel67;
-    private javax.swing.JPanel jPanel68;
-    private javax.swing.JPanel jPanel69;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel70;
     private javax.swing.JPanel jPanel71;
@@ -2866,9 +3737,23 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel83;
     private javax.swing.JPanel jPanel84;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel jPanel91;
+    private javax.swing.JPanel jPanel92;
+    private javax.swing.JPanel jPanel93;
+    private javax.swing.JPanel jPanel94;
+    private javax.swing.JPanel jPanel95;
+    private javax.swing.JPanel jPanel96;
+    private javax.swing.JPanel jPanel97;
+    private javax.swing.JPanel jPanel98;
+    private javax.swing.JPanel jPanel99;
+    private javax.swing.JButton jPay;
+    private javax.swing.JComboBox<String> jPaymentMethod;
+    private javax.swing.JButton jPrint;
+    private javax.swing.JButton jRemove;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane15;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSpinner jSpinner1;
     private javax.swing.JSpinner jSpinner10;
@@ -2894,6 +3779,12 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JSpinner jSpinner29;
     private javax.swing.JSpinner jSpinner3;
     private javax.swing.JSpinner jSpinner30;
+    private javax.swing.JSpinner jSpinner31;
+    private javax.swing.JSpinner jSpinner32;
+    private javax.swing.JSpinner jSpinner33;
+    private javax.swing.JSpinner jSpinner34;
+    private javax.swing.JSpinner jSpinner35;
+    private javax.swing.JSpinner jSpinner36;
     private javax.swing.JSpinner jSpinner37;
     private javax.swing.JSpinner jSpinner38;
     private javax.swing.JSpinner jSpinner39;
@@ -2901,6 +3792,10 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JSpinner jSpinner40;
     private javax.swing.JSpinner jSpinner41;
     private javax.swing.JSpinner jSpinner42;
+    private javax.swing.JSpinner jSpinner43;
+    private javax.swing.JSpinner jSpinner44;
+    private javax.swing.JSpinner jSpinner45;
+    private javax.swing.JSpinner jSpinner46;
     private javax.swing.JSpinner jSpinner5;
     private javax.swing.JSpinner jSpinner6;
     private javax.swing.JSpinner jSpinner7;
@@ -2908,5 +3803,8 @@ public class Ordering extends javax.swing.JFrame {
     private javax.swing.JSpinner jSpinner9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextFieldSubTotal;
+    private javax.swing.JTextField jTextFieldtax;
+    private javax.swing.JTextField jTextFieldtotal;
     // End of variables declaration//GEN-END:variables
 }
